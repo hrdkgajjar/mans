@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Gallery | Mahila Atyachar Nivaran Samiti</title>
+    <meta name="description" content="View photos from our events, workshops, and community outreach programs. See the impact of our work in action.">
+
+    <!-- All other meta tags, fonts, and links from index.html -->
+    <link rel="canonical" href="https://www.your-domain.com/gallery.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Loading Animation -->
+    <div class="loader-wrapper" id="loader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="progress-bar"></div>
+
+    <!-- Header (Same as index.html) -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="index.html" class="logo" aria-label="Mahila Atyachar Nivaran Samiti Home">
+                    <img src="assets/images/gallery/logo.png" alt="Mahila Atyachar Nivaran Samiti Logo">
+                </a>
+                <button class="nav-toggle" aria-label="toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-extras">
+                    <button id="dark-mode-toggle" class="dark-mode-button" aria-label="Toggle dark mode">
+                        <svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 9c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3zm0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header section-padding bg-light">
+            <div class="container text-center">
+                <h1 class="fade-in">Our Gallery</h1>
+                <p class="fade-in">A Glimpse into Our Journey of Empowerment</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section section-padding">
+            <div class="container">
+                <div class="gallery-grid">
+                    <!-- Replace with actual image paths -->
+                    <div class="gallery-item fade-in"><img src="https://via.placeholder.com/400x400.png?text=Event+1" alt="Description of image 1"></div>
+                    <div class="gallery-item fade-in"><img src="https://via.placeholder.com/400x300.png?text=Workshop" alt="Description of image 2"></div>
+                    <div class="gallery-item fade-in"><img src="https://via.placeholder.com/300x400.png?text=Community" alt="Description of image 3"></div>
+                    <div class="gallery-item fade-in"><img src="https://via.placeholder.com/400x400.png?text=Seminar" alt="Description of image 4"></div>
+                    <div class="gallery-item fade-in"><img src="https://via.placeholder.com/400x350.png?text=Team" alt="Description of image 5"></div>
+                    <div class="gallery-item fade-in"><img src="https://via.placeholder.com/350x400.png?text=Outreach" alt="Description of image 6"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="site-footer">
+        <div class="container">
+            <!-- ... Footer content from index.html ... -->
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Mahila Atyachar Nivaran Samiti. All Rights Reserved.</p>
+                <p class="developer-credit">Designed & Developed by <strong>Hardikkumar Gajjar</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top" class="back-to-top-btn" aria-label="Go to top of page">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </a>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

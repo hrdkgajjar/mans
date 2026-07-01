@@ -1,0 +1,10 @@
+# Allow all user agents to crawl the site.
+User-agent: *
+Allow: /
+
+# Disallow crawling of non-public pages.
+Disallow: /privacy-policy.html # Example: if you want to hide it
+Disallow: /terms.html # Example: if you want to hide it
+
+# Location of sitemap
+Sitemap: https://www.your-domain.com/sitemap.xml
